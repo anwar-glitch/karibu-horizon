@@ -35,13 +35,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${manrope.variable} ${inter.variable}`}>
+  
         <Navbar />
 
         {children}
+        <Analytics />
 
         <Footer />
-  {children}
-  <Analytics />
+ 
       </body>
     </html>
   );
